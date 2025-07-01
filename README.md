@@ -26,7 +26,10 @@ This project is a spam message classifier built using **Machine Learning** and *
 ## 🚀 How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/spam-classifier-bot.git
+git clone https://github.com/akashh0320/spam-classifier-bot.git
 cd spam-classifier-bot
 python app.py
+
+## Created by
+** Arul Akash S**
 ```
