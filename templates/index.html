@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spam Classifier</title>
+  </head>
+  <body style="text-align: center; font-family: Arial">
+    <h1>📩 Spam Message Classifier</h1>
+    <form method="post" action="/predict">
+      <textarea
+        name="message"
+        rows="5"
+        cols="50"
+        placeholder="Type your message here..."
+      ></textarea
+      ><br /><br />
+      <input type="submit" value="Check Spam" />
+    </form>
+
+    {% if prediction %}
+    <h2>Result: {{ prediction }}</h2>
+    {% endif %}
+  </body>
+</html>
